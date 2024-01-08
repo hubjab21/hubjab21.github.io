@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wzmacniacze i efekty audio</title>
+  <meta name="description" content="Wzmacniacze i efekty audio" />
+  <meta name="keywords" content="Wzmacniacze i efekty audio" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="center">
+      <div class="topnav" id="myTopnav">
+        <div class="active"><span class="logo"><h2>Wzmacniacze i efekty audio</h2>
+          </span></div>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+  <div class="black">
+
+      <div class="tresc">
+        <h1>Guitar Hero - Alexander Nakarada</h1>
+		<p>W dalszej części przygotowałem 8 sekundowe próbki audio z wykorzystaniem symulacji w LTspice.</p>
+		<br>
+      </div>
+      <div class="tidy"></div>
+	  	  <audio controls>
+   <source src="audio/input.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+    </div>
+	
+    <div class="grey">
+      <h1>Wzmacniacz napięciowy jednotranzystorowy</h1>
+      <img src="imgs/1.png" class="right" />
+
+      <div class="tidy"></div>
+	  <audio controls>
+   <source src="audio/1.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+    </div>
+    <div class="black">
+
+      <div class="tresc">
+        <h1>Wzmacniacz napięciowy jednotranzystorowy z ujemnym równoległym
+sprzężeniem zwrotnym napięciowym</h1>
+        <p><img src="imgs/2.png" class="left" /> </p>
+      </div>
+      <div class="tidy"></div>
+	  	  <audio controls>
+   <source src="audio/2.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+    </div>
+
+    <div class="grey">
+
+      <div class="tresc">
+        <h1>Wzmacniacz na układzie scalonym
+        </h1>
+        <p><img src="imgs/3.png" class="right" /></p>
+      </div>
+      <div class="tidy"></div>
+<p>Niestety dla układu scalonego analiza dźwięku trwała by zbyt długo.</p>
+    </div>
+	
+	    <div class="black">
+
+      <div class="tresc">
+        <h1>Fuzz efekt</h1>
+        <p><img src="imgs/4.png" class="left" /> </p>
+      </div>
+      <div class="tidy"></div>
+	  	  <audio controls>
+   <source src="audio/4.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+    </div>
+	
+	    <div class="grey">
+
+      <div class="tresc">
+        <h1>Bramka szumów
+        </h1>
+        <p><img src="imgs/5.png" class="right" /></p>
+      </div>
+      <div class="tidy"></div>
+	  	  <audio controls>
+   <source src="audio/5.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+    </div>
+	
+
+  </div>
+
+  <footer>
+    2024 Copyright © | Hubert Jabłoński |
+    Strona używa plików cookie. Jeżeli nie wyrażasz zgody na te pliki opuść stronę.</footer>
+
+
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
