@@ -57,6 +57,7 @@ body {
   .topnav a.icon {
     display: block;
   }
+
 }
 
 @media screen and (max-width: 910px) {
@@ -75,6 +76,7 @@ body {
     display: block;
 
   }
+
 }
 
 .logo {
@@ -125,8 +127,11 @@ h1 {
 
 
 img {
-  max-width: 640px;
-  max-height: 480px;
+
+
+  width: 100%;
+  max-width: 700px;
+  height: auto;
   text-align: center;
   padding-bottom: 10px;
 }
