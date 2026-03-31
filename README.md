@@ -51,25 +51,27 @@ All other results are based on LTspice simulations.
 
 ### 🗂️ Project structure
 
-audio/
-├── input.wav
-├── single_transistor_voltage_amplifier.wav
-├── single_transistor_voltage_amplifier_negative_feedback.wav
-├── lm741_amplifier.wav
-├── fuzz_effect.wav
-├── fuzz_effect_guitar.wav
-└── noise_gate.wav
-imgs/
-├── 1.png
-├── 2.png
-├── 3.png
-├── 4.png
-├── 5.png
-├── 7.png
-└── tlo.jpg
-index.html
-style.css
-README.md
+```
+├── audio
+│   ├── fuzz_effect_guitar.wav
+│   ├── fuzz_effect.wav
+│   ├── input.wav
+│   ├── lm741_amplifier.wav
+│   ├── noise_gate.wav
+│   ├── single_transistor_voltage_amplifier_negative_feedback.wav
+│   └── single_transistor_voltage_amplifier.wav
+├── images
+│   ├── background.jpg
+│   ├── fuzz_effect_hardware.png
+│   ├── fuzz_effect_schematic.png
+│   ├── lm741_amplifier_schematic.png
+│   ├── noise_gate_schematic.png
+│   ├── single_transistor_voltage_amplifier_negative_feedback_schematic.png
+│   └── single_transistor_voltage_amplifier_schematic.png
+├── index.html
+├── README.md
+└── style.css
+```
 
 ---
 
