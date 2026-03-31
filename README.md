@@ -10,7 +10,7 @@ The website was created using **HTML and CSS** and allows listening to different
 
 ### 🎧 Content of the website
 
-The page presents short (~8 seconds) audio samples generated in LTspice simulations and compares them between different circuits.
+The page presents short (~9 seconds) audio samples generated in LTspice simulations and compares them between different circuits.
 
 The following sections are available:
 
