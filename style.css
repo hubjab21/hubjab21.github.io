@@ -150,11 +150,6 @@ footer {
   h1 {
     text-align: center;
   }
-  
-  p {
-  color: #ffffff;
-  }
-
   .container {
     max-width: 100%;
 	text-align: center;
@@ -263,4 +258,8 @@ ul {
 
 li {
   display: block;
+}
+
+.white {
+  color: ffffff;
 }
