@@ -150,6 +150,10 @@ footer {
   h1 {
     text-align: center;
   }
+  
+  p {
+  color: #ffffff;
+  }
 
   .container {
     max-width: 100%;
