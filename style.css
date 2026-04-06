@@ -260,6 +260,6 @@ li {
   display: block;
 }
 
-.white {
-  color: #ffffff;
+p.white {
+  color: #ffffff !important;
 }
